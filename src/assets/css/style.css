@@ -1,0 +1,534 @@
+html,
+body {
+  height: 100%;
+}
+.clearfix {
+  clear: both;
+}
+body {
+  background: #F7F7F7;
+}
+.disNone {
+  display: none!important;
+}
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.teacherCircle-container {
+  min-height: 100%;
+}
+.teacherCircle-container .circle-slide {
+  text-align: center;
+}
+.teacherCircle-container .circle-slide img {
+  max-height: 125px;
+}
+.teacherCircle-container .top-nav {
+  text-align: center;
+}
+.teacherCircle-container .top-nav ul {
+  background: #FFF;
+  height: 60px;
+  line-height: 60px;
+}
+.teacherCircle-container .top-nav li {
+  float: left;
+  font-size: 17px;
+  color: #030303;
+  width: 33%;
+}
+.teacherCircle-container .top-nav li img {
+  width: 16px;
+  vertical-align: middle;
+}
+.teacherCircle-container .recommend-container {
+  margin-top: 10px;
+  background: #FFF;
+}
+.teacherCircle-container .recommend-container h5 {
+  font-size: 14px;
+  color: #aaa;
+  text-indent: 15px;
+  line-height: 35px;
+}
+.teacherCircle-container .recommend-container .recommend-slide {
+  text-align: center;
+  padding: 15px 0;
+}
+.teacherCircle-container .recommend-container .recommend-slide .slide-line {
+  border-right: 1px solid #EDEDED;
+}
+.teacherCircle-container .recommend-container .recommend-slide img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.teacherCircle-container .recommend-container .recommend-slide h3 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.teacherCircle-container .recommend-container .recommend-slide p {
+  font-size: 12px;
+  color: #888;
+  line-height: 20px;
+}
+.teacherCircle-container .recommend-container .recommend-slide h4 {
+  margin-top: 10px;
+  line-height: 26px;
+  font-size: 14px;
+  color: #aaa;
+}
+.teacherCircle-container .recommend-container .recommend-slide .follow-btn {
+  width: 63px;
+  margin: auto;
+  height: 26px;
+  line-height: 26px;
+  background: #F8E71C;
+  border: 1px solid #F8E71C;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.teacherCircle-container .recommend-container .recommend-slide .follow-btn span {
+  display: inline-block;
+  background: url('../img/follow_list_ic.png') left center no-repeat;
+  background-size: 12px;
+  padding-left: 16px;
+}
+.teacherCircle-container .recommend-container .recommend-slide .followed {
+  width: 63px;
+  height: 26px;
+  background: #FFF;
+  background: url('../img/follow_list_ic_ok.png') center center no-repeat;
+  background-size: 16px;
+}
+.article-list {
+  margin-top: 10px;
+  font-size: 17px;
+}
+.article-list .list {
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.article-list .top-info {
+  font-size: 14px;
+  color: #AAAAAA;
+}
+.article-list .top-info img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.article-list .center-info {
+  margin-top: 10px;
+  line-height: 22px;
+  position: relative;
+}
+.article-list .center-info .txt {
+  width: 64%;
+}
+.article-list .center-info .btns {
+  font-size: 14px;
+  color: #AAAAAA;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 37%;
+}
+.article-list .center-info .btns div {
+  margin-right: 15px;
+}
+.article-list .center-info .btns .purchased {
+  background: url('../img/ic_buy.png') left center no-repeat;
+  background-size: 8px;
+  padding-left: 12px;
+}
+.article-list .center-info .img {
+  width: 35%;
+}
+.article-list .center-info .img img {
+  max-height: 86px;
+}
+.swiper-pagination-bullet {
+  background: #ddd;
+}
+/* 关注 */
+.follow-container .follow-content {
+  margin-bottom: 10px;
+}
+.follow-container .follow-list {
+  background: #FFF;
+  padding: 20px;
+  position: relative;
+}
+.follow-container .follow-list .follow-left {
+  width: 35%;
+}
+.follow-container .follow-list .follow-left img {
+  max-height: 100px;
+  max-width: 100px;
+  vertical-align: middle;
+}
+.follow-container .follow-list .follow-right {
+  width: 65%;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 100px;
+  overflow: hidden;
+}
+.follow-container .follow-list .follow-right h3 {
+  padding-left: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.follow-container .follow-list .follow-right h4 {
+  padding-left: 0px;
+}
+.follow-container .follow-list .follow-right p {
+  padding-left: 0px;
+}
+.follow-container .follow-list .follow-bottom {
+  font-size: 14px;
+}
+.follow-container .follow-list .follow-bottom .follow-sign {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 28px;
+  line-height: 28px;
+  background: #F7F7F7;
+  padding-left: 10px;
+}
+.follow-container .follow-list .follow-bottom .follow-sign img {
+  width: 12px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.follow-container .follow-list .follow-bottom .follow-status {
+  color: #aaa;
+}
+.follow-container .follow-list .follow-bottom .follow-status span {
+  display: inline-block;
+  padding: 0 20px;
+}
+.follow-container .follow-list .follow-bottom .follow-status .follow-num {
+  background: url('../img/list_follow.png') 5px center no-repeat;
+  background-size: 12px;
+}
+.follow-container .follow-list .follow-bottom .follow-status .article-num {
+  background: url('../img/list_txt.png') 5px center no-repeat;
+  background-size: 12px;
+}
+.follow-container .follow-list .follow-bottom .update-time {
+  color: #aaa;
+  margin-right: 5px;
+}
+.sl-content {
+  overflow: hidden;
+}
+.slide-delete {
+  width: 80px;
+  background: #FF3B30;
+  color: #FFF;
+  font-size: 20px;
+  text-align: center;
+  height: 202px;
+  display: block!important;
+}
+.slide-delete p {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+}
+.slide-delete p:first-child {
+  margin-top: 75px;
+}
+/* 搜索 */
+.research-container .research-condition {
+  background: #fff;
+  height: 44px;
+  padding: 0 10px;
+}
+.research-container .research-condition .research-content {
+  width: 320px;
+  margin: auto;
+}
+.research-container .research-condition .research-in {
+  background: #F8F8F8;
+  border-radius: 2px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 7px;
+  width: 250px;
+  text-indent: 10px;
+}
+.research-container .research-condition .research-in img {
+  width: 20px;
+  vertical-align: middle;
+}
+.research-container .research-condition .research-in input {
+  width: 215px;
+  height: 28px;
+  line-height: 28px;
+  background: none;
+  border: none;
+  font-size: 14px;
+}
+.research-container .research-condition .research-btn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  background: #DDDDDD;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #AAAAAA;
+  text-align: center;
+  margin-top: 7px;
+}
+.research-container .research-condition .research-btn.active {
+  background: #F8E71C;
+  color: #000000;
+}
+.research-container .research-result .no-result {
+  text-align: center;
+  padding-top: 50px;
+}
+.research-container .research-result .no-result img {
+  width: 175px;
+  margin-bottom: 15px;
+}
+.research-container .research-result .no-result p {
+  font-size: 17px;
+  color: #AAAAAA;
+  line-height: 24px;
+}
+.research-container .had-result h5 {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 15px;
+  text-indent: 15px;
+}
+/* 收藏 */
+.collection-container .slide-delete {
+  height: 158px;
+}
+.collection-container .slide-delete p:first-child {
+  margin-top: 50px;
+}
+/* 教师详情 */
+.tinfo-container .teacher-info {
+  background: #fff;
+  padding: 20px;
+}
+.tinfo-container .teacher-info .instruction {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 15px;
+  position: relative;
+  text-align: justify;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EDEDED;
+}
+.tinfo-container .teacher-info .instruction .more-btn {
+  color: #259BDA;
+  position: absolute;
+  bottom: 14px;
+  right: 0px;
+}
+.tinfo-container .teacher-info .article-instru {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.tinfo-container .teacher-info .article-instru .anum {
+  background: url('../img/list_txt.png') left center no-repeat;
+  background-size: 14px;
+  padding-left: 18px;
+}
+.tinfo-container .teacher-info .article-instru .fnum {
+  padding-right: 18px;
+  background: url('../img/list_follow.png') right center no-repeat;
+  background-size: 14px;
+}
+.tinfo-container .teacher-info .article-instru .fnum.active {
+  background: url('../img/list_follow_ok.png') right center no-repeat;
+  background-size: 14px;
+}
+.follow-left {
+  width: 35%;
+}
+.follow-left img {
+  max-height: 100px;
+  max-width: 100px;
+  vertical-align: middle;
+}
+.follow-right {
+  width: 65%;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 100px;
+  overflow: hidden;
+}
+.follow-right h3 {
+  padding-left: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.follow-right h4 {
+  padding-left: 0px;
+}
+.follow-right p {
+  padding-left: 0px;
+}
+.follow-bottom {
+  font-size: 14px;
+}
+.follow-bottom .follow-sign {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 28px;
+  line-height: 28px;
+  background: #F7F7F7;
+  padding-left: 10px;
+}
+.follow-bottom .follow-sign img {
+  width: 12px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.follow-bottom .follow-status {
+  color: #aaa;
+}
+.follow-bottom .follow-status span {
+  display: inline-block;
+  padding: 0 20px;
+}
+.follow-bottom .follow-status .follow-num {
+  background: url('../img/list_follow.png') 5px center no-repeat;
+  background-size: 12px;
+}
+.follow-bottom .follow-status .article-num {
+  background: url('../img/list_txt.png') 5px center no-repeat;
+  background-size: 12px;
+}
+.follow-bottom .update-time {
+  color: #aaa;
+  margin-right: 5px;
+}
+/* 文章详情 */
+.articleInfo-container .article-video,
+.articleInfo-container .av-container {
+  position: relative;
+}
+.articleInfo-container video,
+.articleInfo-container audio {
+  width: 100%;
+}
+.articleInfo-container audio {
+  height: 160px;
+}
+.articleInfo-container .controls-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.articleInfo-container .controls-btn .loder-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  color: #fff;
+}
+.articleInfo-container .controls-btn .loder-img p {
+  line-height: 24px;
+  font-size: 14px;
+}
+.articleInfo-container .controls-btn img {
+  width: 40px;
+}
+.articleInfo-container .controls-btn .controls-time {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  background: #000;
+  border-radius: 25px;
+  padding: 5px 10px;
+  color: #fff;
+  opacity: 0.7;
+}
+.articleInfo-container .charge-container {
+  text-align: center;
+  background: #FFF;
+  padding: 15px;
+}
+.articleInfo-container .charge-container .charge-line {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EDEDED;
+}
+.articleInfo-container .charge-container h3 {
+  font-size: 17px;
+  line-height: 35px;
+}
+.articleInfo-container .charge-container h4 {
+  font-size: 14px;
+  color: #aaa;
+}
+.articleInfo-container .charge-container .charge-btn {
+  width: 145px;
+  height: 38px;
+  line-height: 38px;
+  margin: auto;
+  background: #F8E71C;
+  border: 1px solid #F8E71C;
+  border-radius: 30px;
+  font-size: 17px;
+  color: #222;
+  margin-top: 12px;
+}
+.articleInfo-container .article-info {
+  background: #FFF;
+  padding: 20px;
+}
+.articleInfo-container .article-info h2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.articleInfo-container .article-info .artist-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.articleInfo-container .article-info .artist-info .fleft {
+  color: #222;
+}
+.articleInfo-container .article-info .artist-info img {
+  width: 28px;
+  line-height: 28px;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.articleInfo-container .article-info .artist-info .fright {
+  line-height: 28px;
+  color: #aaa;
+}
+.articleInfo-container .article-info .main-text p {
+  font-size: 17px;
+  line-height: 25px;
+}
+.articleInfo-container .article-info .main-text img.txt-img {
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

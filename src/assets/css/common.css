@@ -1,0 +1,64 @@
+.down{
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  background: url("../img/triangle_down_fill.svg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.back{
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  background: url("../img/back.svg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.search{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/search-o.svg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.follow-heart{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url("../img/follow_list_ic.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.follow-heart-gray{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url("../img/list_follow.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.follow-ok{
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  background: url("../img/follow_list_ic_ok.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.is-buy{
+  display: inline-block;
+  width: 9px;
+  height: 12px;
+  background: url("../img/ic_buy.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
+.article{
+  display: inline-block;
+  width: 10px;
+  height: 11px;
+  background: url("../img/list_txt.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+}
